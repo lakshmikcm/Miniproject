@@ -14,7 +14,7 @@ public class Mainmaven extends Registration{
 		//create object for login page
 		login l=new login();
 		sendKeys(l.getUser(),"Kalai");
-		sendKeys(l.getPass(),"123456");
+		sendKeys(l.getPass(),"1234567");
 		click(l.getLoginbtn());
 		
 		//create object for registration page
