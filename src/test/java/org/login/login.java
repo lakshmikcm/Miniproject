@@ -20,9 +20,9 @@ public class login extends BaseClass{
 	@FindBy(id="password")
 	private WebElement pass;
 	
-	@CacheLookup
-	@FindBy(id="login")
-	private WebElement loginbtn;
+//	@CacheLookup
+//	@FindBy(id="login")
+//	private WebElement loginbtn;
 
 	public WebElement getUser() {
 		return user;
@@ -32,9 +32,9 @@ public class login extends BaseClass{
 		return pass;
 	}
 
-	public WebElement getLoginbtn() {
-		return loginbtn;
-	}
+//	public WebElement getLoginbtn() {
+//		return loginbtn;
+//	}
 	
 
 }
